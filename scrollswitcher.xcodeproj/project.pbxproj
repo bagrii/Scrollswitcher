@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012F20AF2928CDEE0060F6E2 /* scrollswitcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012F20AE2928CDEE0060F6E2 /* scrollswitcherApp.swift */; };
+		012F20B32928CDEF0060F6E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012F20B22928CDEF0060F6E2 /* Assets.xcassets */; };
+		012F20B62928CDEF0060F6E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012F20B52928CDEF0060F6E2 /* Preview Assets.xcassets */; };
+		01727438293012F2009210C1 /* PreferencePanesSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01727437293012F2009210C1 /* PreferencePanesSupport.framework */; };
+		01727439293012F2009210C1 /* PreferencePanesSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01727437293012F2009210C1 /* PreferencePanesSupport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0172743D29335EBE009210C1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0172743C29335EBE009210C1 /* README.md */; };
+		01D5D6B4292FFF3C008A6CD6 /* scrollswitcher-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 01D5D6B3292FFDA5008A6CD6 /* scrollswitcher-Bridging-Header.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0172743A293012F2009210C1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				01727439293012F2009210C1 /* PreferencePanesSupport.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		012F20AB2928CDEE0060F6E2 /* scrollswitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrollswitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		012F20AE2928CDEE0060F6E2 /* scrollswitcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollswitcherApp.swift; sourceTree = "<group>"; };
+		012F20B22928CDEF0060F6E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		012F20B52928CDEF0060F6E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		012F20B72928CDEF0060F6E2 /* scrollswitcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = scrollswitcher.entitlements; sourceTree = "<group>"; };
+		01727437293012F2009210C1 /* PreferencePanesSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanesSupport.framework; path = ../../../../../System/Library/PrivateFrameworks/PreferencePanesSupport.framework; sourceTree = "<group>"; };
+		0172743B29315693009210C1 /* scrollswitcherRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = scrollswitcherRelease.entitlements; sourceTree = "<group>"; };
+		0172743C29335EBE009210C1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		01D5D6B3292FFDA5008A6CD6 /* scrollswitcher-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "scrollswitcher-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		012F20A82928CDEE0060F6E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01727438293012F2009210C1 /* PreferencePanesSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012F20A22928CDEE0060F6E2 = {
+			isa = PBXGroup;
+			children = (
+				0172743C29335EBE009210C1 /* README.md */,
+				012F20AD2928CDEE0060F6E2 /* scrollswitcher */,
+				012F20AC2928CDEE0060F6E2 /* Products */,
+				01D5D673292FD863008A6CD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		012F20AC2928CDEE0060F6E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				012F20AB2928CDEE0060F6E2 /* scrollswitcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		012F20AD2928CDEE0060F6E2 /* scrollswitcher */ = {
+			isa = PBXGroup;
+			children = (
+				0172743B29315693009210C1 /* scrollswitcherRelease.entitlements */,
+				01D5D6B1292FF769008A6CD6 /* Bridging */,
+				012F20AE2928CDEE0060F6E2 /* scrollswitcherApp.swift */,
+				012F20B22928CDEF0060F6E2 /* Assets.xcassets */,
+				012F20B72928CDEF0060F6E2 /* scrollswitcher.entitlements */,
+				012F20B42928CDEF0060F6E2 /* Preview Content */,
+			);
+			path = scrollswitcher;
+			sourceTree = "<group>";
+		};
+		012F20B42928CDEF0060F6E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				012F20B52928CDEF0060F6E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01D5D673292FD863008A6CD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01727437293012F2009210C1 /* PreferencePanesSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01D5D6B1292FF769008A6CD6 /* Bridging */ = {
+			isa = PBXGroup;
+			children = (
+				01D5D6B3292FFDA5008A6CD6 /* scrollswitcher-Bridging-Header.h */,
+			);
+			path = Bridging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		012F20AA2928CDEE0060F6E2 /* scrollswitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 012F20D02928CDEF0060F6E2 /* Build configuration list for PBXNativeTarget "scrollswitcher" */;
+			buildPhases = (
+				012F20A72928CDEE0060F6E2 /* Sources */,
+				012F20A82928CDEE0060F6E2 /* Frameworks */,
+				012F20A92928CDEE0060F6E2 /* Resources */,
+				0172743A293012F2009210C1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scrollswitcher;
+			productName = scrollswitcher;
+			productReference = 012F20AB2928CDEE0060F6E2 /* scrollswitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		012F20A32928CDEE0060F6E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					012F20AA2928CDEE0060F6E2 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 012F20A62928CDEE0060F6E2 /* Build configuration list for PBXProject "scrollswitcher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 012F20A22928CDEE0060F6E2;
+			productRefGroup = 012F20AC2928CDEE0060F6E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				012F20AA2928CDEE0060F6E2 /* scrollswitcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		012F20A92928CDEE0060F6E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0172743D29335EBE009210C1 /* README.md in Resources */,
+				012F20B62928CDEF0060F6E2 /* Preview Assets.xcassets in Resources */,
+				012F20B32928CDEF0060F6E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		012F20A72928CDEE0060F6E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D5D6B4292FFF3C008A6CD6 /* scrollswitcher-Bridging-Header.h in Sources */,
+				012F20AF2928CDEE0060F6E2 /* scrollswitcherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		012F20CE2928CDEF0060F6E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		012F20CF2928CDEF0060F6E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		012F20D12928CDEF0060F6E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = scrollswitcher/scrollswitcher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"scrollswitcher/Preview Content\"";
+				DEVELOPMENT_TEAM = DPPHL323K8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = onethinglab.scrollswitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/bagrii/devel/apps/scrollswitcher/scrollswitcher/Bridging/scrollswitcher-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		012F20D22928CDEF0060F6E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = scrollswitcher/scrollswitcherRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"scrollswitcher/Preview Content\"";
+				DEVELOPMENT_TEAM = DPPHL323K8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = onethinglab.scrollswitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/bagrii/devel/apps/scrollswitcher/scrollswitcher/Bridging/scrollswitcher-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		012F20A62928CDEE0060F6E2 /* Build configuration list for PBXProject "scrollswitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012F20CE2928CDEF0060F6E2 /* Debug */,
+				012F20CF2928CDEF0060F6E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		012F20D02928CDEF0060F6E2 /* Build configuration list for PBXNativeTarget "scrollswitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012F20D12928CDEF0060F6E2 /* Debug */,
+				012F20D22928CDEF0060F6E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 012F20A32928CDEE0060F6E2 /* Project object */;
+}
